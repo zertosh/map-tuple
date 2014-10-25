@@ -1,0 +1,28 @@
+{
+  "name": "map-tuple",
+  "version": "1.0.0",
+  "description": "Map a list of n-tuples to a function with n separate arguments",
+  "keywords": [
+    "map",
+    "tuple",
+    "functional"
+  ],
+  "homepage": "https://github.com/zertosh/map-tuple",
+  "licence": "MIT",
+  "author": "Andres Suarez <zertosh@gmail.com>",
+  "main": "map-tuple.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zertosh/map-tuple.git"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
